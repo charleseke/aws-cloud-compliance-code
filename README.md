@@ -8,6 +8,7 @@ IaC ensures compliant resource deployment and SCPs create hard boundaries that p
 ## CloudFormation Resources
 Instead of checking if resources are configured correctly after they’re deployed, IaC ensures they’re deployed correctly in the first place. IaC eliminates the gap between deployment and compliance validation.
 - Secure S3 bucket with public access blocked and encryption enabled
+- AWS Config rule that checks for a strong IAM password policy
 
 ## Service Control Policies
 Organizational-level guardrails that set boundaries on what actions can be performed across all AWS accounts in your organization.
