@@ -1,9 +1,9 @@
 # AWS Cloud Compliance Code
-CloudFormation templates and Service Control Policies that enforce compliance controls without manual intervention.
+CloudFormation templates, Lambda functions, and Service Control Policies that enforce compliance controls without manual intervention.
 
-Infrastructure as Code (IaC) and Service Control Policies (SCPs) ensure resources deploy securely and consistently allowing you to define your entire compliance infrastructure in code, making it repeatable, testable, and auditable.
+Infrastructure as Code (IaC), Lambda, and Service Control Policies (SCPs) ensure resources deploy securely and consistently allowing you to define your entire compliance infrastructure in code, making it repeatable, testable, and auditable.
 
-IaC ensures compliant resource deployment and SCPs create hard boundaries that prevent policy violations even when someone tries to deploy resources outside your approved templates.
+IaC ensures compliant resource deployment, SCPs create hard boundaries that prevent policy violations even when someone tries to deploy resources outside your approved templates, and Lambda can detect noncompliance then automatically remediate. 
 
 ## CloudFormation Resources
 Instead of checking if resources are configured correctly after they’re deployed, IaC ensures they’re deployed correctly in the first place. IaC eliminates the gap between deployment and compliance validation.
