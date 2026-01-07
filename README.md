@@ -12,6 +12,7 @@ Instead of checking if resources are configured correctly after they’re deploy
 - AWS Config rule that checks if S3 buckets have server-side encryption enabled
 
 ## Lambda Functions 
+Lambda is a compute service that can serve as your automated compliance assistant, allowing you to run generated code in response to events without requiring you to manage any servers, operating systems, or infrastructure.
 
 
 ## Service Control Policies
