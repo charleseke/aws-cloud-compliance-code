@@ -11,6 +11,9 @@ Instead of checking if resources are configured correctly after they’re deploy
 - AWS Config rule that checks for a strong IAM password policy
 - AWS Config rule that checks if S3 buckets have server-side encryption enabled
 
+## Lambda Functions 
+
+
 ## Service Control Policies
 Organizational-level guardrails that set boundaries on what actions can be performed across all AWS accounts in your organization.
 - Prevent Audit Log Deletion
