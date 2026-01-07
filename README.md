@@ -13,7 +13,7 @@ Instead of checking if resources are configured correctly after they’re deploy
 
 ## Lambda Functions 
 Lambda is a compute service that can serve as your automated compliance assistant, allowing you to run generated code in response to events without requiring you to manage any servers, operating systems, or infrastructure.
-
+- Compliance Violation Logger
 
 ## Service Control Policies
 Organizational-level guardrails that set boundaries on what actions can be performed across all AWS accounts in your organization.
